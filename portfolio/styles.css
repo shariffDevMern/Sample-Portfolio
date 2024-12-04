@@ -1,0 +1,17 @@
+.hero {
+    background-image: url('/portfolio/background-realistic-abstract-technology-particle_23-2148431735.jpg');
+    padding:10px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+  
+  footer {
+    margin-top: 20px;
+  }
+  

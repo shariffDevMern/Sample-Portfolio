@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-md">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero bg-blue-500 text-white text-center py-20">
+    <h1 class="text-5xl font-bold">Hi, I'm Zunaith Shariff</h1>
+    <p class="mt-4 text-lg">A Passionate MERN Developer and Designer</p>
+    <a href="#contact" class="btn btn-primary mt-6">Contact Me</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="container my-5">
+    <h2 class="text-center fw-bold">About Me</h2>
+    <p class="text-center mt-3">I am a dedicated and results-driven web developer with expertise in building dynamic, responsive, and visually engaging websites. My skill set includes proficiency in front-end technologies like HTML, CSS, and JavaScript, along with advanced knowledge of React.js for creating seamless, interactive user interfaces. On the backend, I excel in Node.js and MongoDB, enabling me to develop robust, scalable server-side applications and manage databases efficiently.
+
+        I specialize in crafting websites and applications that are not only visually appealing but also optimized for performance and usability across all devices. My passion lies in combining modern design principles with clean, maintainable code to deliver solutions that meet user needs and exceed client expectations. Whether it’s designing an elegant portfolio, developing a feature-rich e-commerce platform, or integrating complex APIs, I strive to bring ideas to life with creativity and precision.
+        
+        In addition to technical skills, I am committed to continuous learning and staying updated with emerging technologies to ensure the solutions I build are innovative, future-ready, and aligned with the latest industry standards.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="container my-5">
+    <h2 class="text-center fw-bold">My Projects</h2>
+    <div class="row mt-4">
+      <!-- Project Card -->
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Nxt Watch</h5>
+            <p class="card-text">NXTWatch is a React-based video streaming application that simulates a video platform experience, allowing users to browse and view videos by category, access detailed video pages, and switch between light and dark themes.</p>
+            <a href="https://github.com/shariffDevMern/NxtWatch" target="_blank" class="btn btn-outline-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Netflix Clone</h5>
+            <p class="card-text">A fully responsive Netflix landing page clone built using HTML, CSS, and JavaScript. The project features various sections, including a hero section, features, and a frequently asked questions (FAQ) section. The design mimics the original Netflix India website.</p>
+            <a href="https://github.com/shariffDevMern/Netflix-clone" target="_blank" class="btn btn-outline-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Password Manager App</h5>
+            <p class="card-text">A React-based Password Manager application that enables users to securely store and manage their passwords for various websites. The app allows users to add, search, view, and delete their passwords, providing a seamless and intuitive user experience.</p>
+            <a href=" https://passmanagees.ccbp.tech/" target="_blank" class="btn btn-outline-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Contacts App</h5>
+            <p class="card-text">The Contacts App is a user-friendly web application designed to simplify the way users organize and manage their personal and professional contacts. This app is built with modern web technologies, focusing on efficiency, accessibility, and an intuitive interface.</p>
+            <a href="https://contactsha.netlify.app/" target="_blank" class="btn btn-outline-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat similar blocks for other projects -->
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+<section id="skills" class="bg-gray-100 py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold">My Skills</h2>
+      <div class="row mt-4 text-center">
+        <!-- Skill Card -->
+        <div class="col-md-3">
+          <div class="card shadow-sm border-0">
+            <div class="card-body">
+              <i class="fas fa-code fa-3x text-primary"></i>
+              <h5 class="card-title mt-3">HTML</h5>
+              <p class="card-text">Experienced in creating semantic and accessible web pages.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card shadow-sm border-0">
+            <div class="card-body">
+              <i class="fas fa-paint-brush fa-3x text-success"></i>
+              <h5 class="card-title mt-3">CSS & Tailwind</h5>
+              <p class="card-text">Proficient in responsive design, animations, and styling.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card shadow-sm border-0">
+            <div class="card-body">
+              <i class="fab fa-js-square fa-3x text-warning"></i>
+              <h5 class="card-title mt-3">JavaScript</h5>
+              <p class="card-text">Skilled in creating dynamic, interactive web applications.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card shadow-sm border-0">
+            <div class="card-body">
+              <i class="fab fa-react fa-3x text-info"></i>
+              <h5 class="card-title mt-3">React.js</h5>
+              <p class="card-text">Experienced in building reusable components and SPAs.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Add more skill cards as needed -->
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Contact Form Section -->
+  <section id="contact" class="bg-gray-100 py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold">Contact Me</h2>
+      <form action="https://formsubmit.co/your-email" method="POST" class="mt-4">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Zunaith Shariff. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
